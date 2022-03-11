@@ -93,9 +93,10 @@
                         <div class="accordion-body">
                         <strong class="text-justify">
                             Javascript is a programming language which is used for websites scripting.It is lightweight and object oriented language.
-Nowadays, Javascript has two flavor.One hand js in the browser to modify html documents,making http request,managing data,web authentication.
-on the other hand access Javascript let us manage the computer directly access files and folders handle network resouces.
-we have access different kinds of functionality.Javascript has asynchronous mechanism that let it react to the events,
+Nowadays, Javascript has two flavor which are One hand Javascript in the browser to modify HTML documents, making HTTP requests, Managing data,web authentication etc. <br>
+On the other hand access Javascript let us manage the computer directly access files and folders handle network resouces.
+that gives us the  access of different kinds of functionality. <br>
+Javascript has asynchronous mechanism that let it react to the events,
 sometimes some task take so long to load in the page that time user cant interact with the page,like clicking,
 touching to avoid that javascript delegates the work in the background so the user can interact with the browser.
                         </strong>   
@@ -105,12 +106,22 @@ touching to avoid that javascript delegates the work in the background so the us
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
+                        Difference between Local storage and Session storage
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>
+                            A session is something when a user use an app or website for a particular amount of time. Webstorage api is used by the developers to stroe some data in web browser and there are two mechanism for that one is sessionstroage and another is loaclstorage.
+
+                            For session storage <br>
+                            The data is stored in persisted amount of time , suppose a user browse a web or using an app, now some data is stored in the browser and as soon as the user closes the particular tab or window or the app the session is end and the data stroed in the browser is lost. This is session storage.
+                            In Session storage stroed data is not sent to the server or no network request is called using this data.It has more capacity than cookies.
+                            
+                            On the other hand  <br>
+                            Local storage is the same as session storage but the major difference is the data stored in the local storage , it doesn't clear itself which means the data is stored or saved in the browser , it is stored event if the user closes the tab, window, close the app or shut down the system. Local stroage data is used for  actually store some user relevant data which is not that important to be saved on the server. For the fast and optimized performance it is stored in the browser so that user doesnt have to network call request or call an  api from the server everytime the user need reusable data.
+                            Local storage has more capacity than session storage or cookies.
+                          </strong>
                         </div>
                       </div>
                     </div>
